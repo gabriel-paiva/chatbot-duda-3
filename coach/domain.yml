@@ -1,0 +1,155 @@
+intents:
+  - start
+  - cumprimentar
+  - me_ajuda
+  - despedir
+  - tudo_bem
+  - elogios
+  - genero
+  - onde_voce_mora
+  - triste
+  - historia
+  - afirmar
+  - negar
+  - cancelar
+
+  - action_enviar_doc_estatuto
+  - action_enviar_doc_manual_do_calouro
+  - action_enviar_doc_codigo_de_conduta
+  - action_enviar_doc_carta_de_principios
+  - action_enviar_doc_regulamento_geral
+  - action_enviar_doc_normas_procedimentos
+  - action_enviar_doc_miv
+  - action_enviar_doc_calendario
+
+entities:
+  - meajuda
+  - genero
+  - triste
+  - historia
+  - vive
+  - nome
+  - idade
+  - slot
+
+templates:
+  utter_start:
+    - text: |
+        Oi, eu sou a Duda, uma assistente virtual!
+        Posso te ajudar com dúvidas sobre a Universidade Católica de Brasília. Tem alguma pergunta?
+        Para aprender como você pode interagir comigo basta escrever meajuda.
+  utter_cumprimentar:
+    - text: |
+        Oi, eu sou a Duda, uma assistente virtual!
+        Posso te ajudar com dúvidas sobre a Universidade Católica de Brasília. Tem alguma pergunta?
+        Para aprender como você pode interagir comigo basta escrever meajuda.
+  utter_default:
+    - text: |
+        Desculpe, não consegui entender sua mensagem. Pode me perguntar de outra forma?
+  utter_fallback:
+    - text: |
+        Desculpe, ainda não sei falar sobre isso ou talvez não consegui entender direito
+        Você pode perguntar de novo de outro jeito?
+    - text: |
+        Hummmm... Não sei se entendi. Pode escrever de outra forma?
+    - text: |
+        Acho que não te entendi, você pode me perguntar de novo usando outras palavras?
+    - text: |
+        Vamos tentar mais uma vez? Eu não consegui te entender direito, me pergunta de outro jeito?
+  utter_elogios:
+    - text: |
+        Obrigada! É sempre bom dar e receber elogios :P
+  utter_despedir:
+    - text: |
+        Foi um prazer te ajudar!
+        Sempre que tiver alguma dúvida, volte aqui!
+        Até logo!
+    - text: |
+        Foi um prazer te ajudar!
+        Sempre que precisar, volte aqui!
+        Até a próxima!
+    - text: |
+        Foi um prazer te ajudar!
+        Quando surgir alguma dúvida, volte aqui!
+        Até mais!
+  utter_tudo_bem:
+    - text: |
+        Tudo bem, obrigada! Em que posso te ajudar?
+  utter_genero:
+    - text: |
+        Eu não tenho sexo, sou como um anjo
+
+        Um ser assexuado
+
+        Muito além da sua forma de existência
+    - text: |
+        Eu sou um robô, uai
+  utter_onde_voce_mora:
+    - text: |
+        Estou morando em um chip de memória RAM
+
+        Mas é temporário
+
+        Só até conseguir achar uma memória cache...
+    - text: |
+        Eu moro na Universidade Católica de Brasília, Campus I, Bloco B, Sala 205.
+  utter_risada:
+    - text: |
+        Hahahaha... 
+
+        Engraçadinho
+    - text: |
+        kkkkkkkkkk
+
+        Você está feliz hoje, hein!?
+  utter_continuar_conversa:
+    - text: E aí, qual nosso próximo assunto?
+    - text: Quer conversar sobre outra coisa?
+    - text: Gostaria de falar sobre algo mais?
+  utter_pergunta_cancelar:
+    - text: |
+        Entendi. Você deseja cancelar?
+  utter_nome:
+    - text: |
+        Meu nome é Duda, pois fui criada pelo grupo "Du, Dudu e Edu" da disciplina de Engenharia de Software da UCB.
+  utter_me_ajuda:
+    - text: |
+        Sei falar de assuntos relacionados à vida dos estudantes da Universidade Católica de Brasília.
+
+        Por exemplo, sei responder dúvidas sobre: estágios, financeiro, atividades complementares, ect.
+
+        Como posso te ajudar?
+  utter_triste:
+    - text: |
+        Sinto muito =/
+
+        Você sabia que a Católica disponibiliza atendimento psicológico gratuito à comunidade?
+
+        Esse serviço é oferecido regularmente pelo Centro de Formação em Psicologia Aplicada (CEFPA), do Curso de Psicologia.
+
+        Se quiser saber mais, é só ligar no telefone (61) 3356-9328.
+
+actions:
+  - utter_fallback
+  - utter_elogios
+  - utter_start
+  - utter_default
+  - utter_cumprimentar
+  - utter_despedir
+  - utter_tudo_bem
+  - utter_genero
+  - utter_risada
+  - utter_continuar_conversa
+  - utter_nome
+  - utter_pergunta_cancelar
+  - utter_onde_voce_mora
+  - utter_me_ajuda
+  - utter_triste
+  - action_enviar_doc_estatuto
+  - action_enviar_doc_manual_do_calouro
+  - action_enviar_doc_codigo_de_conduta
+  - action_enviar_doc_carta_de_principios
+  - action_enviar_doc_regulamento_geral
+  - action_enviar_doc_normas_procedimentos
+  - action_enviar_doc_miv
+  - action_enviar_doc_calendario
