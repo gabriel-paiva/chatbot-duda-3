@@ -13,6 +13,26 @@ intents:
   - negar
   - cancelar
 
+  - onde_fica_cefpa
+  - qual_seu_nome
+  - onde_encontrar_estagio
+  - oque_e_integra
+  - onde_bolsas_estudo
+  - quem_bolsas_estudo
+  - processo_bolsa_estudo
+  - percentual_bolsa_estudo
+  - quando_bolsa_estudo
+  - o_que_ava
+  - o_que_portal_estudante
+  - quais_requerimentos_portal_estudante
+  - como_revisao_nota
+  - como_transferencia_interna
+  - como_trancamento_matricula
+  - como_aproveitamento_estudos
+  - quais_situacoes_academicas
+  - o_que_atividades_complementares
+  - quais_atendimento_ucb
+
   - action_enviar_doc_estatuto
   - action_enviar_doc_manual_do_calouro
   - action_enviar_doc_codigo_de_conduta
@@ -129,6 +149,136 @@ templates:
 
         Se quiser saber mais, é só ligar no telefone (61) 3356-9328.
 
+  utter_onde_fica_cefpa:
+    - text: |
+        O Centro de Formação em Psicologia Aplicada (CEFPA) da UCB (Câmpus I – QS 7 – Lote 1 –Pistão Sul – DF) fica no Bloco M, sala 008.
+  utter_onde_encontrar_estagio:
+    - text: |
+        Você pode conseguir um estágio atraǘes do Integra.
+
+        É uma plataforma que procura auxiliar os estudantes proporcionando oportunidades de aprendizado e de efetivação no mercado de trabalho.
+
+        As vagas de estágio e de emprego são divulgadas no site e nas redes sociais da Universidade.
+
+        Se precisar de mais informações pode ligar no número 3356-9076 ou 3356-9483
+
+        Ou contatar o e-mail integra@ucb.br
+  utter_oque_e_integra:
+    - text: |
+        O projeto UCB Integra tem o objetivo de contribuir na formação dos nossos estudantes através de ações, palestras, oportunidades de estágio e outras atividades.
+
+        O Integra fica no Câmpus Taguatinga, Bloco M, Sala 115.
+
+        Voce pode entrar em contato pelo e-mail integra@ucb.br
+
+        Ou por telefone 3356-9076 ou 3356-9483
+  utter_onde_bolsas_estudo:
+    - text: |
+        A Bolsa Social da UCB é uma modalidade de bolsa filantrópica.
+
+        Normalmente é disponibilizada aos estudantes regularmente matriculados na Universidade.
+
+        Os requisitos são publicados em edital próprio no site da Católica.
+
+        Para mais informações entre em contato pelo telefone 61 3356-9058/9498 ou procure a sala Sala F-25.
+
+        Você também pode me perguntar sobre o processo para conseguir de bolsa de estudos.
+  utter_quem_bolsas_estudo:
+    - text: |
+        Os pré-requisitos para concorrer a uma das bolsas são divulgados em edital próprio, a cada semestre. 
+
+        Entre as exigências, estão:
+
+        1. Não ter vínculo com outras instituições de ensino, públicas ou privadas;
+        2. Não ter concluído nenhum curso de graduação;
+        3. Atender aos critérios de rendimento acadêmico;
+        4. Comprovar renda per capita de até 3 salários mínimos para bolsas de 50%;
+        5. Não ser beneficiário de bolsas de estudo de origem governamental.
+  utter_processo_bolsa_estudo:
+    - text: |
+        Deve-se ingressar no Sistema de Seleção de Bolsista Social e realizar a inscrição, fornecendo os dados solicitados e apresentando os documentos requeridos. 
+
+        Poderá ser solicitado ainda uma entrevista com um assistente social designado pela instituição para esclarecimentos sobre o contexto socioeconômico vivenciado pelo candidato. 
+
+        Documentos complementares também podem ser solicitados.
+  utter_percentual_bolsa_estudo:
+    - text: |
+        A bolsa pode ser concedida no percentual de 50% e 100%, a depender da análise socioeconômica em atenção à Lei 12.101/2009.
+  utter_quando_bolsa_estudo:
+    - text: |
+        A renovação da bolsa é anual, mas a concessão não há período fixo.
+  utter_o_que_ava:
+    - text: |
+        AVA é o nosso Ambiente Virtual de Aprendizagem. 
+
+        Provido pela empresa canadense Desire 2 Learn, ele pode ser acessado pela WEB ou de qualquer dispositivo móvel.
+
+        Basta baixar o aplicativo Brightspace Pulse e selecionar a fornecedora do seu aprendizado UBEC.
+  utter_o_que_portal_estudante:
+    - text: |
+        O Portal do Estudante é uma ferramenta que a UCB disponibilizou para trazer mais praticidade a você, possibilitando a abertura de vários requerimentos.
+  utter_quais_requerimentos_portal_estudante:
+    - text: |
+        No Portal do Estudante (GOL) você pode abrir requerimentos para:
+          - Declaração de Escolaridade;
+          - Declaração de Passe Estudantil;
+          - Declaração de Provável Formando; 
+          - Horário do Estudante Completo; 
+          - Histórico Escolar; 
+          - Declaração Financeira; 
+          - Extrato para Imposto de Renda;
+  utter_como_revisao_nota:
+    - text: |
+        Primeiro, atente-se ao prazo estabelecido em calendário acadêmico. 
+
+        Uma vez que a nota esteja consolidada no histórico escolar, você deverá protocolar processo no ATENDE no prazo estipulado. 
+
+        Não serão acatadas solicitações fora de prazo, nem para disciplinas de semestres anteriores. 
+
+        Não existe na legislação brasileira o abono de faltas. Assim, não cabe revisão das reprovações por faltas.
+  utter_como_transferencia_interna:
+    - text: |
+        As condições para Transferência Interna são estabelecidas em edital. 
+
+        Desde que você atenda aos requisitos do edital e manifeste interesse pela transferência, poderá submeter-se ao processo seletivo. 
+
+        A adaptação curricular deverá ser objeto de processo de equivalência de disciplinas, após o processo de matrícula do estudante.
+  utter_como_trancamento_matricula:
+    - text: |
+        O Trancamento de Matrícula é a suspensão dos estudos no semestre corrente. 
+
+        O período de trancamento é estabelecido no Calendário Acadêmico. 
+
+        Para solicitações fora do prazo, deverá haver comprovação da justificativa.
+  utter_como_aproveitamento_estudos:
+    - text: |
+        É possível fazer o aproveitamento de disciplinas cursadas em outro curso e/ou outra Instituição de Ensino Superior (IES). 
+
+        Para tanto, deverá apresentar o histórico escolar e as ementas das disciplinas já cursadas. 
+
+        Conforme a Resolução 652007 - Consepe, são passíveis de aproveitamento as disciplinas cursadas nos últimos oito anos, respeitadas a carga horária, a quantidade de créditos e o conteúdo programático.
+
+        As coordenações dos cursos analisam e decidem pelo deferimento ou não dos pedidos de aproveitamento de estudos, inclusive a extensão ou redução do prazo de 8 anos, baseado no tipo de disciplina e experiência do requerente.
+  utter_quais_situacoes_academicas:
+    - text: |
+        Um estudante por estar nas seguintes situações: Matriculado, Desistente, Trancado ou Desligado.
+  utter_o_que_atividades_complementares:
+    - text: |
+        As atividades complementares são componentes curriculares obrigatórios, de exigência do Ministério da Educação para a complementação da carga horária total do curso, com o objetivo de enriquecer e complementar a formação do estudante, por meio da diversificação das experiências, dentro e fora do ambiente universitário. 
+
+        Os estudantes que forem obrigados a cumpri-las, em função do currículo do curso, devem fazê- -lo ao longo de sua formação. 
+
+        Informações relativas à normatização destas atividades, as horas necessárias a cada curso de graduação, bem como a distribuição destas horas, devem ser obtidas nas coordenações dos cursos.
+  utter_quais_atendimento_ucb:
+    - text: |
+        Além de mim, você pode contatar os seguintes canais:
+
+        - WhatsApp Business: (61) 3356 9000; 
+
+        - Central de Atendimento: 3356 9000 - segunda a sexta de 8h às 20h40;
+
+        - Atendimento presencial no ATENDE –Atendimento Estudantil - segunda a quinta de 8h às 21h e na sexta 8h às 20h.
+
 actions:
   - utter_fallback
   - utter_elogios
@@ -144,7 +294,25 @@ actions:
   - utter_pergunta_cancelar
   - utter_onde_voce_mora
   - utter_me_ajuda
+  - utter_onde_fica_cefpa
   - utter_triste
+  - utter_onde_encontrar_estagio
+  - utter_oque_e_integra
+  - utter_onde_bolsas_estudo
+  - utter_quem_bolsas_estudo
+  - utter_processo_bolsa_estudo
+  - utter_percentual_bolsa_estudo
+  - utter_quando_bolsa_estudo
+  - utter_o_que_ava
+  - utter_o_que_portal_estudante
+  - utter_quais_requerimentos_portal_estudante
+  - utter_como_revisao_nota
+  - utter_como_transferencia_interna
+  - utter_como_trancamento_matricula
+  - utter_como_aproveitamento_estudos
+  - utter_quais_situacoes_academicas
+  - utter_o_que_atividades_complementares
+  - utter_quais_atendimento_ucb
   - action_enviar_doc_estatuto
   - action_enviar_doc_manual_do_calouro
   - action_enviar_doc_codigo_de_conduta
