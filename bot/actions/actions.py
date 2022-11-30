@@ -11,8 +11,7 @@ class ActionEnviarDocEstatuto(Action):
             bot = telegram.Bot(token='TELEGRAM_TOKEN')
             url = 'https://ucb.catolica.edu.br/portal/wp-content/uploads/2019/12/ESTATUTO-UCB-2019-1.pdf'
             bot.sendDocument(chat_id=tracker.sender_id, document=url)
-        except Exception as e:
-            print(e)
+        except Exception:
             dispatcher.utter_message("Desculpe, não consegui te enviar o documento em anexo.")
             dispatcher.utter_message("Mas você pode acessá-lo por essa URL:")
             dispatcher.utter_message(attachment = url)
