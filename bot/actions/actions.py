@@ -11,10 +11,11 @@ class ActionEnviarDocEstatuto(Action):
             bot = telegram.Bot(token='TELEGRAM_TOKEN')
             url = 'https://ucb.catolica.edu.br/portal/wp-content/uploads/2019/12/ESTATUTO-UCB-2019-1.pdf'
             bot.sendDocument(chat_id=tracker.sender_id, document=url)
-        except Exception:
+        except Exception as e:
+            print(e)
             dispatcher.utter_message("Desculpe, não consegui te enviar o documento em anexo.")
             dispatcher.utter_message("Mas você pode acessá-lo por essa URL:")
-            dispatcher.utter_message(url)
+            dispatcher.utter_message(attachment = url)
 
 class ActionEnviarManualDoCalouro(Action):
     def name(self):
@@ -29,7 +30,7 @@ class ActionEnviarManualDoCalouro(Action):
         except Exception:
             dispatcher.utter_message("Desculpe, não consegui te enviar o documento em anexo.")
             dispatcher.utter_message("Mas você pode acessá-lo por essa URL:")
-            dispatcher.utter_message(url)
+            dispatcher.utter_message(attachment = url)
 
 class ActionEnviarCodigoDeConduta(Action):
     def name(self):
@@ -44,7 +45,7 @@ class ActionEnviarCodigoDeConduta(Action):
         except Exception:
             dispatcher.utter_message("Desculpe, não consegui te enviar o documento em anexo.")
             dispatcher.utter_message("Mas você pode acessá-lo por essa URL:")
-            dispatcher.utter_message(url)
+            dispatcher.utter_message(attachment = url)
 
 class ActionEnviarCartaDePrincipios(Action):
     def name(self):
@@ -59,7 +60,7 @@ class ActionEnviarCartaDePrincipios(Action):
         except Exception:
             dispatcher.utter_message("Desculpe, não consegui te enviar o documento em anexo.")
             dispatcher.utter_message("Mas você pode acessá-lo por essa URL:")
-            dispatcher.utter_message(url)
+            dispatcher.utter_message(attachment = url)
 
 class ActionEnviarRegulamentoGeral(Action):
     def name(self):
@@ -74,7 +75,7 @@ class ActionEnviarRegulamentoGeral(Action):
         except Exception:
             dispatcher.utter_message("Desculpe, não consegui te enviar o documento em anexo.")
             dispatcher.utter_message("Mas você pode acessá-lo por essa URL:")
-            dispatcher.utter_message(url)
+            dispatcher.utter_message(attachment = url)
 
 class ActionEnviarNormaseProcedimentos(Action):
     def name(self):
@@ -89,7 +90,7 @@ class ActionEnviarNormaseProcedimentos(Action):
         except Exception:
             dispatcher.utter_message("Desculpe, não consegui te enviar o documento em anexo.")
             dispatcher.utter_message("Mas você pode acessá-lo por essa URL:")
-            dispatcher.utter_message(url)
+            dispatcher.utter_message(attachment = url)
 
 class ActionEnviarMIV(Action):
     def name(self):
@@ -104,7 +105,7 @@ class ActionEnviarMIV(Action):
         except Exception:
             dispatcher.utter_message("Desculpe, não consegui te enviar o documento em anexo.")
             dispatcher.utter_message("Mas você pode acessá-lo por essa URL:")
-            dispatcher.utter_message(url)
+            dispatcher.utter_message(attachment = url)
 
 class ActionEnviarCalendario(Action):
     def name(self):
@@ -119,4 +120,4 @@ class ActionEnviarCalendario(Action):
         except Exception:
             dispatcher.utter_message("Desculpe, não consegui te enviar o documento em anexo.")
             dispatcher.utter_message("Mas você pode acessá-lo por essa URL:")
-            dispatcher.utter_message(url)
+            dispatcher.utter_message(attachment = url)
