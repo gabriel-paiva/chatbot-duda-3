@@ -29,3 +29,39 @@
 ## action_enviar_doc_calendario
 * action_enviar_doc_calendario
   - action_enviar_doc_calendario
+
+## action_enviar_localizacao_bloco_abcd
+* action_enviar_localizacao_bloco_abcd
+  - action_enviar_localizacao_bloco_abcd
+
+## action_enviar_localizacao_bloco_e
+* action_enviar_localizacao_bloco_e
+  - action_enviar_localizacao_bloco_e
+
+## action_enviar_localizacao_bloco_f
+* action_enviar_localizacao_bloco_f
+  - action_enviar_localizacao_bloco_f
+
+## action_enviar_localizacao_bloco_g
+* action_enviar_localizacao_bloco_g
+  - action_enviar_localizacao_bloco_g
+
+## action_enviar_localizacao_bloco_l
+* action_enviar_localizacao_bloco_l
+  - action_enviar_localizacao_bloco_l
+
+## action_enviar_localizacao_bloco_s
+* action_enviar_localizacao_bloco_s
+  - action_enviar_localizacao_bloco_s
+
+## action_enviar_localizacao_bloco_m
+* action_enviar_localizacao_bloco_m
+  - action_enviar_localizacao_bloco_m
+
+## action_enviar_localizacao_bloco_n
+* action_enviar_localizacao_bloco_n
+  - action_enviar_localizacao_bloco_n
+  
+## action_enviar_localizacao_bloco_k
+* action_enviar_localizacao_bloco_k
+  - action_enviar_localizacao_bloco_k

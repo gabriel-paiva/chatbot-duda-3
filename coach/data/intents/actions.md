@@ -54,3 +54,61 @@
 - quero o calendario academico de 2022
 - calendario academico
 - 2022
+
+## intent:action_enviar_localizacao_bloco_abcd
+- Onde fica o bloco A
+- Onde fica o bloco B
+- Onde fica o bloco C
+- Onde fica o bloco D
+- localização bloco A
+- localização bloco B
+- localização bloco C
+- localização bloco D
+- Me envie o local do bloco A
+- Me envie o local do bloco B
+- Me envie o local do bloco C
+- Me envie o local do bloco D
+- Bloco A
+- Bloco B
+- Bloco C
+- Bloco D
+
+## intent:action_enviar_localizacao_bloco_e
+- Onde fica o bloco E
+- localização bloco E
+- Bloco E
+
+## intent:action_enviar_localizacao_bloco_f
+- Onde fica o bloco F
+- localização bloco F
+- Bloco F
+
+## intent:action_enviar_localizacao_bloco_g
+- Onde fica o bloco G
+- localização bloco G
+- Bloco G
+
+## intent:action_enviar_localizacao_bloco_l
+- Onde fica o bloco L
+- localização bloco L
+- Bloco L
+
+## intent:action_enviar_localizacao_bloco_s
+- Onde fica o bloco S
+- localização bloco S
+- Bloco S
+
+## intent:action_enviar_localizacao_bloco_m
+- Onde fica o bloco M
+- localização bloco M
+- Bloco M
+
+## intent:action_enviar_localizacao_bloco_n
+- Onde fica o bloco N
+- localização bloco N
+- Bloco N
+
+## intent:action_enviar_localizacao_bloco_k
+- Onde fica o bloco K
+- localização bloco K
+- Bloco K
