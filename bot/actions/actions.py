@@ -9,12 +9,12 @@ class ActionEnviarDocEstatuto(Action):
 
         try:
             bot = telegram.Bot(token='TELEGRAM_TOKEN')
-            url = 'https://ucb.catolica.edu.br/portal/wp-content/uploads/2019/12/ESTATUTO-UCB-2019-1.pdf'
+            url = "https://ucb.catolica.edu.br/portal/wp-content/uploads/2019/12/ESTATUTO-UCB-2019-1.pdf"
             bot.sendDocument(chat_id=tracker.sender_id, document=url)
         except Exception:
             dispatcher.utter_message("Desculpe, não consegui te enviar o documento em anexo.")
             dispatcher.utter_message("Mas você pode acessá-lo por essa URL:")
-            dispatcher.utter_message(attachment = url)
+            dispatcher.utter_message("https://ucb.catolica.edu.br/portal/wp-content/uploads/2019/12/ESTATUTO-UCB-2019-1.pdf")
 
 class ActionEnviarManualDoCalouro(Action):
     def name(self):
@@ -24,12 +24,12 @@ class ActionEnviarManualDoCalouro(Action):
 
         try:
             bot = telegram.Bot(token='TELEGRAM_TOKEN')
-            url = 'https://ucb.catolica.edu.br/portal/wp-content/uploads/2022/03/GUIA-DO-ESTUDANTE02.pdf'
+            url = "https://ucb.catolica.edu.br/portal/wp-content/uploads/2022/03/GUIA-DO-ESTUDANTE02.pdf"
             bot.sendDocument(chat_id=tracker.sender_id, document=url)
         except Exception:
             dispatcher.utter_message("Desculpe, não consegui te enviar o documento em anexo.")
             dispatcher.utter_message("Mas você pode acessá-lo por essa URL:")
-            dispatcher.utter_message(attachment = url)
+            dispatcher.utter_message("https://ucb.catolica.edu.br/portal/wp-content/uploads/2022/03/GUIA-DO-ESTUDANTE02.pdf")
 
 class ActionEnviarCodigoDeConduta(Action):
     def name(self):
@@ -39,12 +39,12 @@ class ActionEnviarCodigoDeConduta(Action):
 
         try:
             bot = telegram.Bot(token='TELEGRAM_TOKEN')
-            url = 'https://ucb.catolica.edu.br/portal/wp-content/uploads/2020/12/CODIGO_CONDUTA_ETICA_UBEC.pdf'
+            url = "https://ucb.catolica.edu.br/portal/wp-content/uploads/2020/12/CODIGO_CONDUTA_ETICA_UBEC.pdf"
             bot.sendDocument(chat_id=tracker.sender_id, document=url)
         except Exception:
             dispatcher.utter_message("Desculpe, não consegui te enviar o documento em anexo.")
             dispatcher.utter_message("Mas você pode acessá-lo por essa URL:")
-            dispatcher.utter_message(attachment = url)
+            dispatcher.utter_message("https://ucb.catolica.edu.br/portal/wp-content/uploads/2020/12/CODIGO_CONDUTA_ETICA_UBEC.pdf")
 
 class ActionEnviarCartaDePrincipios(Action):
     def name(self):
@@ -54,12 +54,12 @@ class ActionEnviarCartaDePrincipios(Action):
 
         try:
             bot = telegram.Bot(token='TELEGRAM_TOKEN')
-            url = 'https://ucb.catolica.edu.br/portal/wp-content/uploads/2019/01/CartadePrincipios.pdf'
+            url = "https://ucb.catolica.edu.br/portal/wp-content/uploads/2019/01/CartadePrincipios.pdf"
             bot.sendDocument(chat_id=tracker.sender_id, document=url)
         except Exception:
             dispatcher.utter_message("Desculpe, não consegui te enviar o documento em anexo.")
             dispatcher.utter_message("Mas você pode acessá-lo por essa URL:")
-            dispatcher.utter_message(attachment = url)
+            dispatcher.utter_message("https://ucb.catolica.edu.br/portal/wp-content/uploads/2019/01/CartadePrincipios.pdf")
 
 class ActionEnviarRegulamentoGeral(Action):
     def name(self):
@@ -69,12 +69,12 @@ class ActionEnviarRegulamentoGeral(Action):
 
         try:
             bot = telegram.Bot(token='TELEGRAM_TOKEN')
-            url = 'https://ucb.catolica.edu.br/portal/wp-content/uploads/2022/02/Regulamento_Geral_da_Graduacao.pdf'
+            url = "https://ucb.catolica.edu.br/portal/wp-content/uploads/2022/02/Regulamento_Geral_da_Graduacao.pdf"
             bot.sendDocument(chat_id=tracker.sender_id, document=url)
         except Exception:
             dispatcher.utter_message("Desculpe, não consegui te enviar o documento em anexo.")
             dispatcher.utter_message("Mas você pode acessá-lo por essa URL:")
-            dispatcher.utter_message(attachment = url)
+            dispatcher.utter_message("https://ucb.catolica.edu.br/portal/wp-content/uploads/2022/02/Regulamento_Geral_da_Graduacao.pdf")
 
 class ActionEnviarNormaseProcedimentos(Action):
     def name(self):
@@ -84,12 +84,12 @@ class ActionEnviarNormaseProcedimentos(Action):
 
         try:
             bot = telegram.Bot(token='TELEGRAM_TOKEN')
-            url = 'https://ucb.catolica.edu.br/portal/wp-content/uploads/2022/02/Normas-e-Procedimentos-Academicos.pdf'
+            url = "https://ucb.catolica.edu.br/portal/wp-content/uploads/2022/02/Normas-e-Procedimentos-Academicos.pdf"
             bot.sendDocument(chat_id=tracker.sender_id, document=url)
         except Exception:
             dispatcher.utter_message("Desculpe, não consegui te enviar o documento em anexo.")
             dispatcher.utter_message("Mas você pode acessá-lo por essa URL:")
-            dispatcher.utter_message(attachment = url)
+            dispatcher.utter_message("https://ucb.catolica.edu.br/portal/wp-content/uploads/2022/02/Normas-e-Procedimentos-Academicos.pdf")
 
 class ActionEnviarMIV(Action):
     def name(self):
@@ -99,12 +99,12 @@ class ActionEnviarMIV(Action):
 
         try:
             bot = telegram.Bot(token='TELEGRAM_TOKEN')
-            url = 'https://ucb.catolica.edu.br/portal/wp-content/uploads/2022/02/Manual-de-Identidade-CATOLICA-UCB-1.pdf'
+            url = "https://ucb.catolica.edu.br/portal/wp-content/uploads/2022/02/Manual-de-Identidade-CATOLICA-UCB-1.pdf"
             bot.sendDocument(chat_id=tracker.sender_id, document=url)
         except Exception:
             dispatcher.utter_message("Desculpe, não consegui te enviar o documento em anexo.")
             dispatcher.utter_message("Mas você pode acessá-lo por essa URL:")
-            dispatcher.utter_message(attachment = url)
+            dispatcher.utter_message("https://ucb.catolica.edu.br/portal/wp-content/uploads/2022/02/Manual-de-Identidade-CATOLICA-UCB-1.pdf")
 
 class ActionEnviarCalendario(Action):
     def name(self):
@@ -114,9 +114,9 @@ class ActionEnviarCalendario(Action):
 
         try:
             bot = telegram.Bot(token='TELEGRAM_TOKEN')
-            url = 'https://ucb.catolica.edu.br/portal/wp-content/uploads/2021/12/UCB-CALENDARIO-2022-A4-V5.pdf'
+            url = "https://ucb.catolica.edu.br/portal/wp-content/uploads/2021/12/UCB-CALENDARIO-2022-A4-V5.pdf"
             bot.sendDocument(chat_id=tracker.sender_id, document=url)
         except Exception:
             dispatcher.utter_message("Desculpe, não consegui te enviar o documento em anexo.")
             dispatcher.utter_message("Mas você pode acessá-lo por essa URL:")
-            dispatcher.utter_message(attachment = url)
+            dispatcher.utter_message("https://ucb.catolica.edu.br/portal/wp-content/uploads/2021/12/UCB-CALENDARIO-2022-A4-V5.pdf")
